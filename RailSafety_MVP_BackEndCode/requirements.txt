@@ -1,0 +1,21 @@
+asgiref @ file:///tmp/build/80754af9/asgiref_1594338739818/work
+astroid==2.4.2
+certifi==2020.6.20
+colorama==0.4.3
+Django==3.0.3
+django-cors-headers==3.4.0
+django-filter==2.3.0
+djangorestframework==3.11.1
+djangorestframework-jwt==1.11.0
+isort==5.4.1
+lazy-object-proxy==1.5.1
+mccabe==0.6.1
+psycopg2 @ file:///C:/ci/psycopg2_1594305172475/work
+pycodestyle==2.6.0
+PyJWT==1.7.1
+pytz==2020.1
+six==1.15.0
+sqlparse==0.3.1
+typed-ast==1.4.1
+wincertstore==0.2
+wrapt==1.12.1
