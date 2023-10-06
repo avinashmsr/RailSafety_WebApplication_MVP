@@ -1,0 +1,46 @@
+[
+    {
+        "train_no": 22691,
+        "rakes": [
+            {
+                "trainrake_no": "22691_1",
+                "rake_no": 1,
+                "train": 22691,
+                "coaches": [
+                    {
+                        "coach_no": 14116,
+                        "faults": [
+                            {
+                                "id": 1,
+                                "wsp_status_code": 72,
+                                "fault_datetime": "2020-08-23T12:01:26.304947Z",
+                                "coach": "22691_1_14116"
+                            }
+                        ]
+                    },
+                    {
+                        "coach_no": 14117,
+                        "faults": [
+                            {
+                                "id": 2,
+                                "wsp_status_code": 72,
+                                "fault_datetime": "2020-08-23T13:01:26.304947Z",
+                                "coach": "22691_1_14117"
+                            }
+                        ]
+                    },
+                    {
+                        "coach_no": 114118,
+                        "faults": []
+                    }
+                ]
+            },
+            {
+                "trainrake_no": "22691_2",
+                "rake_no": 2,
+                "train": 22691,
+                "coaches": []
+            }
+        ]
+    }
+]

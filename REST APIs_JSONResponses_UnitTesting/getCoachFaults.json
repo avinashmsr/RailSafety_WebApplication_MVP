@@ -1,0 +1,19 @@
+{
+    "trainrakecoach_no": "22691_1_14116",
+    "faults": [
+        {
+            "id": 1,
+            "wsp_status_code": 72,
+            "fault_datetime": "2020-08-23T12:01:26.304947Z",
+            "coach": "22691_1_14116"
+        }
+    ],
+    "coach_no": 14116,
+    "prefix": "SE",
+    "coach_type": "LMACCN",
+    "coach_class": "AC-II Class",
+    "description": "UPDATING",
+    "position": 0,
+    "coach_name": "A5",
+    "rake": "22691_1"
+}
