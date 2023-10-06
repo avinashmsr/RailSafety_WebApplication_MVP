@@ -1,0 +1,132 @@
+{
+    "train_no": 22691,
+    "rakes": [
+        {
+            "rake_no": "22691_1",
+            "coaches": [
+                {
+                    "coach_no": "22691_1_14116",
+                    "faults": [
+                        {
+                            "id": 1,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-16T00:00:00Z",
+                            "coach": "22691_1_14116"
+                        }
+                    ],
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A5 of XYZ Exp",
+                    "position": 1,
+                    "coach_name": "A5",
+                    "rake": "22691_1"
+                },
+                {
+                    "coach_no": "22691_1_14117",
+                    "faults": [],
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A4 of XYZ Exp",
+                    "position": 2,
+                    "coach_name": "A4",
+                    "rake": "22691_1"
+                },
+                {
+                    "coach_no": "22691_1_14118",
+                    "faults": [
+                        {
+                            "id": 5,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-16T09:13:49.598698Z",
+                            "coach": "22691_1_14118"
+                        }
+                    ],
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A3 of XYZ Exp",
+                    "position": 3,
+                    "coach_name": "A3",
+                    "rake": "22691_1"
+                }
+            ],
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 22691
+        },
+        {
+            "rake_no": "22691_2",
+            "coaches": [
+                {
+                    "coach_no": "22691_2_14116",
+                    "faults": [
+                        {
+                            "id": 4,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-16T00:00:00Z",
+                            "coach": "22691_2_14116"
+                        }
+                    ],
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A5 of XYZ Exp",
+                    "position": 1,
+                    "coach_name": "A5",
+                    "rake": "22691_2"
+                },
+                {
+                    "coach_no": "22691_2_14117",
+                    "faults": [
+                        {
+                            "id": 2,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-16T00:00:00Z",
+                            "coach": "22691_2_14117"
+                        }
+                    ],
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A4 of XYZ Exp",
+                    "position": 2,
+                    "coach_name": "A4",
+                    "rake": "22691_2"
+                },
+                {
+                    "coach_no": "22691_2_14118",
+                    "faults": [
+                        {
+                            "id": 3,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-16T00:00:00Z",
+                            "coach": "22691_2_14118"
+                        }
+                    ],
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A3 of XYZ Exp",
+                    "position": 3,
+                    "coach_name": "A3",
+                    "rake": "22691_2"
+                }
+            ],
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 22691
+        },
+        {
+            "rake_no": "22691_3",
+            "coaches": [],
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 22691
+        },
+        {
+            "rake_no": "22691_4",
+            "coaches": [],
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 22691
+        }
+    ],
+    "train_name": "XYZ Express",
+    "description": "XYZ Express train from X to destination Y"
+}

@@ -1,0 +1,200 @@
+{
+    "id": 1,
+    "rakes": [
+        {
+            "id": 1,
+            "coaches": [
+                {
+                    "id": 1,
+                    "coach_level_faults": [
+                        {
+                            "id": 1,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-15",
+                            "device_id": 123,
+                            "train": 1,
+                            "rake": 1,
+                            "coach": 1
+                        }
+                    ],
+                    "coach_no": 14116,
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A5 of XYZ Exp",
+                    "position": 1,
+                    "coach_name": "A5",
+                    "rake": 1
+                },
+                {
+                    "id": 2,
+                    "coach_level_faults": [],
+                    "coach_no": 14117,
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A4 of XYZ Exp",
+                    "position": 2,
+                    "coach_name": "A4",
+                    "rake": 1
+                },
+                {
+                    "id": 3,
+                    "coach_level_faults": [
+                        {
+                            "id": 2,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-15",
+                            "device_id": 456,
+                            "train": 1,
+                            "rake": 1,
+                            "coach": 3
+                        }
+                    ],
+                    "coach_no": 14118,
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A3 of XYZ Exp",
+                    "position": 3,
+                    "coach_name": "A3",
+                    "rake": 1
+                }
+            ],
+            "rake_level_faults": [
+                {
+                    "id": 1,
+                    "wsp_status_code": 72,
+                    "fault_datetime": "2020-08-15",
+                    "device_id": 123,
+                    "train": 1,
+                    "rake": 1,
+                    "coach": 1
+                },
+                {
+                    "id": 2,
+                    "wsp_status_code": 72,
+                    "fault_datetime": "2020-08-15",
+                    "device_id": 456,
+                    "train": 1,
+                    "rake": 1,
+                    "coach": 3
+                }
+            ],
+            "rake_no": 1,
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 1
+        },
+        {
+            "id": 2,
+            "coaches": [
+                {
+                    "id": 4,
+                    "coach_level_faults": [],
+                    "coach_no": 14116,
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A5 of XYZ Exp",
+                    "position": 1,
+                    "coach_name": "A5",
+                    "rake": 2
+                },
+                {
+                    "id": 5,
+                    "coach_level_faults": [],
+                    "coach_no": 14117,
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A4 of XYZ Exp",
+                    "position": 2,
+                    "coach_name": "A4",
+                    "rake": 2
+                },
+                {
+                    "id": 6,
+                    "coach_level_faults": [
+                        {
+                            "id": 3,
+                            "wsp_status_code": 72,
+                            "fault_datetime": "2020-08-15",
+                            "device_id": 789,
+                            "train": 1,
+                            "rake": 2,
+                            "coach": 6
+                        }
+                    ],
+                    "coach_no": 14118,
+                    "coach_type": "LMACCN",
+                    "coach_class": "AC-I Class",
+                    "description": "Coach A3 of XYZ Exp",
+                    "position": 3,
+                    "coach_name": "A3",
+                    "rake": 2
+                }
+            ],
+            "rake_level_faults": [
+                {
+                    "id": 3,
+                    "wsp_status_code": 72,
+                    "fault_datetime": "2020-08-15",
+                    "device_id": 789,
+                    "train": 1,
+                    "rake": 2,
+                    "coach": 6
+                }
+            ],
+            "rake_no": 2,
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 1
+        },
+        {
+            "id": 3,
+            "coaches": [],
+            "rake_level_faults": [],
+            "rake_no": 3,
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 1
+        },
+        {
+            "id": 4,
+            "coaches": [],
+            "rake_level_faults": [],
+            "rake_no": 4,
+            "description": "rake for XYZ express 22691",
+            "status": "Active",
+            "train": 1
+        }
+    ],
+    "train_level_faults": [
+        {
+            "id": 1,
+            "wsp_status_code": 72,
+            "fault_datetime": "2020-08-15",
+            "device_id": 123,
+            "train": 1,
+            "rake": 1,
+            "coach": 1
+        },
+        {
+            "id": 2,
+            "wsp_status_code": 72,
+            "fault_datetime": "2020-08-15",
+            "device_id": 456,
+            "train": 1,
+            "rake": 1,
+            "coach": 3
+        },
+        {
+            "id": 3,
+            "wsp_status_code": 72,
+            "fault_datetime": "2020-08-15",
+            "device_id": 789,
+            "train": 1,
+            "rake": 2,
+            "coach": 6
+        }
+    ],
+    "train_no": 22691,
+    "train_name": "XYZ Express",
+    "description": "XYZ Express train from X to destination Y"
+}
