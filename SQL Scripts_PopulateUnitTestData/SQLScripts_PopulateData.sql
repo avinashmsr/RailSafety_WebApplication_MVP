@@ -46,19 +46,6 @@ INSERT INTO public.wspd_app_coach (coach_no, coach_type, coach_class, coach_desc
 	VALUES ('22691_2_14118', 'LMACCN', 'AC-I Class', 'Coach A3 of XYZ Exp',3,'A3','22691_2');
 	
 select * from public.wspd_app_faulttable
-
-INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
-	VALUES (1, 72,current_timestamp, '22691_1_14116');
-INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
-	VALUES (2, current_timestamp, '22691_2_14117', 72);
-INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
-	VALUES (3, current_timestamp, '22691_2_14118', 72);
-INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
-	VALUES (4, current_timestamp, '22691_2_14116', 72);
-INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
-	VALUES (5, current_timestamp, '22691_1_14118', 72);
-INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
-	VALUES (6, current_timestamp, '22691_1_14118', 99);
 	
 INSERT INTO public.wspd_app_faulttable (id, wsp_status_code, fault_datetime, coach_id)
 	VALUES (1, 72,current_timestamp, '22691_1_14116');
