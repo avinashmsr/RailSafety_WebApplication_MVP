@@ -22,7 +22,6 @@ class Coach(models.Model):
     coach_type = models.CharField(max_length=264)
     coach_class = models.CharField(max_length=264)
     description = models.CharField(max_length=264)
-    device_id = models.IntegerField()
     rake = models.ForeignKey(Rake, related_name='coaches', on_delete=models.CASCADE)
     position = models.IntegerField(default=0)
     coach_name = models.CharField(max_length=264,default='')
@@ -36,5 +35,9 @@ class Coach(models.Model):
 
 
 class FaultTable(models.Model):
-    coach = models.ForeignKey(Coach, related_name='faults', on_delete=models.CASCADE)
+    wsp_status_code = models.IntegerField(default=0)
     fault_datetime = models.DateField()
+    device_id = models.IntegerField(default=0)
+    train = models.ForeignKey(Train, related_name='train_level_faults', on_delete=models.CASCADE)
+    rake = models.ForeignKey(Rake, related_name='rake_level_faults', on_delete=models.CASCADE)
+    coach = models.ForeignKey(Coach, related_name='coach_level_faults', on_delete=models.CASCADE)
