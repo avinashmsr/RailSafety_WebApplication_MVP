@@ -7,27 +7,27 @@ INSERT INTO PUBLIC.wspd_app_train (train_no, train_name, train_description)
 
 select * from public.wspd_app_rake
 
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('22691_1', 'rake for XYZ express 22691', 'Active', 22691);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('22691_2', 'rake for XYZ express 22691', 'Active', 22691);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('22691_3', 'rake for XYZ express 22691', 'Active', 22691);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('22691_4', 'rake for XYZ express 22691', 'Active', 22691);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('22691_1', 1, 'rake for XYZ express 22691', 'Active', 22691);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('22691_2', 2, 'rake for XYZ express 22691', 'Active', 22691);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('22691_3', 3, 'rake for XYZ express 22691', 'Active', 22691);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('22691_4', 4, 'rake for XYZ express 22691', 'Active', 22691);
 	
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('12301_1', 'rake for ABC Freight 12301', 'Active', 12301);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('12301_2', 'rake for ABC Freight 12301', 'Active', 12301);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('12301_3', 'rake for ABC Freight 12301', 'Active', 12301);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('12301_4', 'rake for ABC Freight 12301', 'Active', 12301);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('12301_5', 'rake for ABC Freight 12301', 'Active', 12301);
-INSERT INTO public.wspd_app_rake (rake_no, rake_description, rake_status, train_id)
-	VALUES ('12301_6', 'rake for ABC Freight 12301', 'Active', 12301);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('12301_1', 1, 'rake for ABC Freight 12301', 'Active', 12301);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('12301_2', 2, 'rake for ABC Freight 12301', 'Active', 12301);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('12301_3', 3, 'rake for ABC Freight 12301', 'Active', 12301);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('12301_4', 4, 'rake for ABC Freight 12301', 'Active', 12301);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('12301_5', 5, 'rake for ABC Freight 12301', 'Active', 12301);
+INSERT INTO public.wspd_app_rake (trainrake_no, rake_no, rake_description, rake_status, train_id)
+	VALUES ('12301_6', 6, 'rake for ABC Freight 12301', 'Active', 12301);
 	
 select * from public.wspd_app_coach
 	
