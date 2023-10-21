@@ -10,7 +10,13 @@ class FaultTableSerializer(serializers.ModelSerializer):
         fields = '__all__'
 
 class CoachSerializer(serializers.ModelSerializer):
-    coach_level_faults = FaultTableSerializer(many=True)
+    faults = FaultTableSerializer(many=True)
+
+    class Meta:
+        model = Coach
+        fields = '__all__'
+
+class CoachSerializer2(serializers.ModelSerializer):
 
     class Meta:
         model = Coach
@@ -18,12 +24,16 @@ class CoachSerializer(serializers.ModelSerializer):
         
 class RakeSerializer(serializers.ModelSerializer):
     coaches = CoachSerializer(many=True)
-    rake_level_faults = FaultTableSerializer(many=True)
 
     class Meta:
         model = Rake
         fields = '__all__'
 
+class RakeSerializer2(serializers.ModelSerializer):
+
+    class Meta:
+        model = Rake
+        fields = '__all__'
 
 class TrainSerializer(serializers.ModelSerializer):
     rakes = RakeSerializer(many=True)
@@ -32,26 +42,6 @@ class TrainSerializer(serializers.ModelSerializer):
     class Meta:
         model = Train
         fields = '__all__'
-
-
-
-
-# class RakeCoachListSerializer(serializers.ModelSerializer):
-#     #rake_obj = RakeSerializer(many=True)
-#     #coach_obj = CoachSerializer(many=True)
-
-#     class Meta:
-#         model = RakeCoach
-#         fields = '__all__'
-
-# class RakeCoachDetailSerializer(serializers.ModelSerializer):
-#     #rake_obj = RakeSerializer(many=True)
-#     #coach_obj = CoachSerializer(many=True)
-
-#     class Meta:
-#         model = RakeCoach
-#         fields = '__all__'
-#         depth = 1
 
 
 
