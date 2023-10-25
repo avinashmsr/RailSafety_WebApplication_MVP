@@ -19,19 +19,13 @@ class Rake(models.Model):
 
 class Coach(models.Model):
     coach_no = models.CharField(primary_key=True, max_length=50)
+    prefix = models.CharField(max_length=10,default='')
     coach_type = models.CharField(max_length=264)
     coach_class = models.CharField(max_length=264)
     description = models.CharField(max_length=264)
     rake = models.ForeignKey(Rake, related_name='coaches', on_delete=models.CASCADE)
     position = models.IntegerField(default=0)
     coach_name = models.CharField(max_length=264,default='')
-
-
-# class RakeCoach(models.Model):
-#     rake = models.ForeignKey(Rake, on_delete=models.CASCADE)
-#     coach = models.ForeignKey(Coach, on_delete=models.CASCADE)
-#     position = models.IntegerField()
-#     coach_name = models.CharField(max_length=264)
 
 
 class FaultTable(models.Model):
