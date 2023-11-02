@@ -34,7 +34,7 @@ class RakeSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Rake
-        fields = ('rake_no','train','coaches')
+        fields = ('trainrake_no','rake_no','train','coaches')
 
 class RakeSerializer2(serializers.ModelSerializer):
 
