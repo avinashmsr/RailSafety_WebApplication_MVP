@@ -27,14 +27,14 @@ class CoachSerializer3(serializers.ModelSerializer):
 
     class Meta:
         model = Coach
-        fields = ('coach_no','faults')
+        fields = ('trainrakecoach_no', 'coach_no', 'faults')
 
 class RakeSerializer(serializers.ModelSerializer):
     coaches = CoachSerializer3(many=True)
 
     class Meta:
         model = Rake
-        fields = ('trainrake_no','rake_no','train','coaches')
+        fields = ('trainrake_no', 'rake_no', 'train', 'coaches')
 
 class RakeSerializer2(serializers.ModelSerializer):
 
