@@ -21,13 +21,20 @@ class CoachSerializer2(serializers.ModelSerializer):
     class Meta:
         model = Coach
         fields = '__all__'
+        
+class CoachSerializer3(serializers.ModelSerializer):
+    faults = FaultTableSerializer(many=True)
+
+    class Meta:
+        model = Coach
+        fields = ('coach_no','faults')
 
 class RakeSerializer(serializers.ModelSerializer):
     coaches = CoachSerializer3(many=True)
 
     class Meta:
         model = Rake
-        fields = ('trainrake_no', 'rake_no', 'train', 'coaches')
+        fields = ('trainrake_no','rake_no','train','coaches')
 
 class RakeSerializer2(serializers.ModelSerializer):
 
